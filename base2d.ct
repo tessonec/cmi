@@ -1,0 +1,11 @@
+choice:string:metric:"L2","LINF","X","Y","ANGLE","ALL":the metric defined in the bidimensional space
+val:string:data_1_filename:"data_1.dat":File containing the data 1
+val:string:data_2_filename:"data_2.dat":File containing the data 2
+val:string:basename:"calc":Mutual Information file
+@conditional_file_out tau_values
+@conditional_file_out time_window_values
+val:long:kth_order:2:Order of the neighbourhood considered
+val:long:tau_max:100:maximum time lag
+val:long:moving_window_size:1000:size of the moving window
+val:long:tau_step:1:increment in the tau
+val:long:moving_window_step:1:increment in the moving window
